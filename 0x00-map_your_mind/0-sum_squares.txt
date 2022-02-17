@@ -1,0 +1,18 @@
+j <-- 1
+S <-- 0
+For i <-- 1 at n not 1
+ do
+
+S <-- S + ( j ^ 2 )
+j <-- j + 2
+
+end for
+ 
+end 
+ 
+Exampl
+
+n = 4
+Algorithm
+ S= 1²+3²+5²+7²
+  = 84
