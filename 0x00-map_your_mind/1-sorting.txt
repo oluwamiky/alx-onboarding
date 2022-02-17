@@ -1,0 +1,32 @@
+ 
+ 
+&#123;read the 3 variables&#125;
+read &#40;nb1,nb2,nb3&#41;
+ 
+&#123;start the comparisons&#125;
+   &#123;compare the 1st and 2nd&#125; 
+        if nb1>nb2 then
+            max=nb1
+            mil=nb2 
+        otherwise
+            mil=nb2
+            max=nb2
+         end if
+ 
+   &#123;compare the greater of &#40;between the 1st and 2nd&#41; and nb3&#125; 
+        if max>nb3 then
+           &#123;compare the middle and nb3&#125;
+            if mil>nb3 then
+                  min=nb3
+            otherwise
+                  perm=mil
+                  mil=nb3
+                  min=perm
+            end if
+        otherwise
+            min=mil
+            mil=max
+            max=nb3
+        end if
+
+Translated with www.DeepL.com/Translator (free version)
